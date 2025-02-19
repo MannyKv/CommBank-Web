@@ -164,7 +164,7 @@ export function GoalManager(props: Props) {
       </Group>
 
       <Group>
-<AddIconButtonContainer condition={hasIcon()}>
+<AddIconButtonContainer condition={!hasIcon()}>
 
   <TransparentButton onClick={addIconOnClick}>
     <FontAwesomeIcon icon={faSmile} size="2x" />
